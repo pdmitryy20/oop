@@ -1,0 +1,8 @@
+D:\2 курс\ООП\ЛАБ 10\lab10\obj\Debug\lab10.csproj.AssemblyReference.cache
+D:\2 курс\ООП\ЛАБ 10\lab10\obj\Debug\lab10.csproj.SuggestedBindingRedirects.cache
+D:\2 курс\ООП\ЛАБ 10\lab10\obj\Debug\lab10.csproj.CoreCompileInputs.cache
+D:\2 курс\ООП\ЛАБ 10\lab10\bin\Debug\lab10.exe.config
+D:\2 курс\ООП\ЛАБ 10\lab10\bin\Debug\lab10.exe
+D:\2 курс\ООП\ЛАБ 10\lab10\bin\Debug\lab10.pdb
+D:\2 курс\ООП\ЛАБ 10\lab10\obj\Debug\lab10.exe
+D:\2 курс\ООП\ЛАБ 10\lab10\obj\Debug\lab10.pdb
