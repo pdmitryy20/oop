@@ -1,0 +1,65 @@
+using System;
+
+class Kudu
+{
+    public int rows;
+    public int columns;
+    public string[,] data;
+
+    public Kudu(int rows, int columns)
+    {
+        this.rows = rows;
+        this.columns = columns;
+        data = new string[rows, columns];
+    }
+
+    public string this[int row, int column]
+    {
+        get
+        {
+            return data[row, column];
+        }
+        set
+        {
+            data[row, column] = value;
+        }
+    }
+
+    public void Print()
+    {
+        for (int i = 0; i < rows; i++)
+        {
+            for (int j = 0; j < columns; j++)
+            {
+                Console.Write(data[i, j] + "\t");
+            }
+            Console.WriteLine();
+        }
+    }
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Kudu kudu = new Kudu(4, 4);
+
+        kudu[0, 0] = "Назва";
+        kudu[0, 1] = "Група";
+        kudu[0, 2] = "Житло";
+        kudu[0, 3] = "Чисельність популяції";
+        kudu[1, 0] = "Джейран";
+        kudu[1, 1] = "А";
+        kudu[1, 2] = "Азія";
+        kudu[1, 3] = "30000";
+        kudu[2, 0] = "Гну";
+        kudu[2, 1] = "В";
+        kudu[2, 2] = "Африка";
+        kudu[2, 3] = "560000";
+        kudu[3, 0] = "Бейза";
+        kudu[3, 1] = "Н";
+        kudu[3, 2] = "Африка";
+        kudu[3, 3] = "2500";
+        kudu.Print();
+    }
+}
