@@ -1,0 +1,40 @@
+using System;
+using System.Linq;
+
+namespace lab2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int size = 10;
+            int[] array = new int[size];
+            Random rnd = new Random();
+            // Генеруємо випадкові числа, включаючи від'ємні, які поміщуємо у масив
+            for (int i = 0; i < size; i++)
+            {
+                array[i] = rnd.Next(-100, 100);
+            }
+            Console.WriteLine("Початковий масив: ");
+            // Виводимо масив на екран
+            for (int i = 0; i < array.Length; i++)
+            {
+                Console.WriteLine(array[i]);
+            }
+            Console.WriteLine("Відформатований масив: ");
+            // Заміняємо від'ємні числа виведеного масиву найбільшим числом у цьому масиві
+            for (int i = 0; i < array.Length; i++)
+            {
+                if (array[i] < 0)
+                {
+                    array[i] = array.Max();
+                }
+            }
+            // Виводимо масив з заміненими числами на екран 
+            for (int i = 0; i < array.Length; i++)
+            {
+                Console.WriteLine(array[i]);
+            }
+        }
+    }
+}
