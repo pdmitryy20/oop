@@ -1,0 +1,8 @@
+C:\Users\Діма\Desktop\lab5zavd3\bin\Debug\lab5zavd3.exe.config
+C:\Users\Діма\Desktop\lab5zavd3\bin\Debug\lab5zavd3.exe
+C:\Users\Діма\Desktop\lab5zavd3\bin\Debug\lab5zavd3.pdb
+C:\Users\Діма\Desktop\lab5zavd3\obj\Debug\lab5zavd3.csproj.AssemblyReference.cache
+C:\Users\Діма\Desktop\lab5zavd3\obj\Debug\lab5zavd3.csproj.SuggestedBindingRedirects.cache
+C:\Users\Діма\Desktop\lab5zavd3\obj\Debug\lab5zavd3.csproj.CoreCompileInputs.cache
+C:\Users\Діма\Desktop\lab5zavd3\obj\Debug\lab5zavd3.exe
+C:\Users\Діма\Desktop\lab5zavd3\obj\Debug\lab5zavd3.pdb
